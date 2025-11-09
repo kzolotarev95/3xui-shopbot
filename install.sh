@@ -38,8 +38,26 @@ if [ -f "$NGINX_CONF_FILE" ]; then
     cd $PROJECT_DIR
 
     echo -e "\n${CYAN}Шаг 1: Обновление кода из репозитория Git...${NC}"
-    git pull
-    echo -e "${GREEN}✔ Код успешно обновлен.${NC}"
+    
+    # Проверка, является ли директория git-репозиторием
+    if [ ! -d ".git" ]; then
+        echo -e "${YELLOW}Директория не является git-репозиторием. Переинициализируем...${NC}"
+        # Создаем резервную копию текущих файлов
+        cd ..
+        BACKUP_DIR="${PROJECT_DIR}_backup_$(date +%s)"
+        echo -e "${YELLOW}Создаем резервную копию в $BACKUP_DIR...${NC}"
+        cp -r $PROJECT_DIR $BACKUP_DIR
+        # Удаляем старую директорию
+        rm -rf $PROJECT_DIR
+        # Клонируем репозиторий заново
+        git clone $REPO_URL
+        cd $PROJECT_DIR
+        echo -e "${GREEN}✔ Репозиторий переинициализирован.${NC}"
+    else
+        # Стандартное обновление через git pull
+        git pull
+        echo -e "${GREEN}✔ Код успешно обновлен.${NC}"
+    fi
 
     echo -e "\n${CYAN}Шаг 2: Пересборка и перезапуск Docker-контейнеров...${NC}"
     sudo docker-compose down --remove-orphans && sudo docker-compose up -d --build
