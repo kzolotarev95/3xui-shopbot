@@ -2,10 +2,6 @@
       <h1>3X-ui-ShopBot | Telegram-бот для продажи VPN</h1>
 <p align="center">
     <a href="https://github.com/kzolotarev95/3xui-shopbot?tab=readme-ov-file#%EF%B8%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4-%D0%BA%D0%BB%D1%8E%D1%87">Установка и обновление</a> •
-    <a href="https://github.com/kzolotarev95/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Баги и предложения</a> •
-    <a href="#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83">Поддержка по проекту</a> •
-    <a href="https://t.me/+0a2q3H5G7JU4NDMy">Группа для соискателей</a> •
-    <a href="https://github.com/kzolotarev95/3xui-shopbot?tab=readme-ov-file#-%D0%B1%D0%B0%D0%B3%D0%B8-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F">Поддержать проект</a>
 </p>
 <p align="center">
   <img alt="release" src="https://img.shields.io/github/v/release/kzolotarev95/3xui-shopbot?label=release&style=flat-square">
@@ -19,12 +15,6 @@
 </div>
 
 **3X-ui-ShopBot** — комплексное решение для автоматизированной продажи VLESS‑конфигураций через Telegram с глубокой интеграцией в панель **3x‑ui** и собственной веб‑панелью на базе Tabler.
-
-## [Поддержка по проекту](https://t.me/t_shift_supportbot)
-
-## 👥 Группа для соискателей
-
-Присоединяйтесь к нашей группе: [3xui-shopbot](https://t.me/+0a2q3H5G7JU4NDMy)
 
 ---
 
@@ -117,11 +107,6 @@
 
 ---
 
-## 💻 Где купить сервер/домен
-
-Если нет сервера/домена — можно приобрести здесь: [Hostoff](https://hostoff.net/vps?ref=CODEA251D760)
-
----
 
 ## 🛠️ Установка «под ключ»
 
